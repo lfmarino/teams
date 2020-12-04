@@ -120,9 +120,16 @@
               "devServerTarget": "typescript:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "typescript"
+  "defaultProject": "typescript",
+  "cli": {
+    "analytics": "2f209cfd-2fa4-4b9e-b56a-cf0311d70cbf"
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "typescript-d9714": {
+      "hosting": {
+        "typescript": [
+          "typescript-d9714"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "typescript-d9714"
+  }
+}
